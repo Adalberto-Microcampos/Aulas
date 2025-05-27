@@ -1,2 +1,17 @@
-Ol� Git
-teste 2 
+Como criar chave SSH para o Git?
+Perguntado por: Kevin Araújo de Santos  |  Última atualização: 23. April 2022
+ Pontuação: 4.6/5 (29 avaliações)
+Adicionar chave no Github
+Abra o Github e vá no ícone de perfil > Settings, no canto superior direito.
+Na barra lateral de configurações do usuário, clique em "SSH and GPG keys".
+Clique no botão "New SSH key"
+No campo "Título", adicione um rótulo descritivo para a nova chave.
+Como criar a chave ssh?
+Para gerar um par de chaves SSH em uma máquina com Macintosh ou Linux:
+Abra uma janela do terminal.
+Insira esta linha de comando: ssh-keygen -t rsa.
+Selecione os valores padrão para todas as opções. Esse comando gera dois arquivos de chave SSH, id_rsa e id_rsa. ...
+Envie o arquivo de chave pública id_rsa.
+
+Como colocar uma chave ssh no GitHub?
+Para adicionar uma chave SSH à sua conta do GitHub, use o subcomando ssh-key add , especificando a sua chave pública. Para incluir um título para a nova chave, use o sinalizador -t ou --title .
